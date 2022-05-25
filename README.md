@@ -18,7 +18,7 @@ I cropped the image where the lanes are to be detected to avoid false detections
 So i defined a region of interest where lane detections have to be made and then used bitwise AND to crop the image.
 
 
-![image](https://user-images.githubusercontent.com/85057931/170327387-249facf6-1262-4898-8855-2a36ed740dc5.png)
+![2](https://user-images.githubusercontent.com/85057931/170327709-434eb794-0a12-4377-8370-6d77140d687c.png)
 
 ## Lane detection
 I used Probabilistic Hough Transform to detect lines in the Preprocessed image and then drew these lines over on the image.
