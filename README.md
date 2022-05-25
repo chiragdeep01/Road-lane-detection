@@ -14,9 +14,17 @@ In this project i have used OpenCV to detect road lanes for self driving cars. B
 ## Cropping image
 I cropped the image where the lanes are to be detected to avoid false detections. Without this cropping i got some detections on buildings, etc.
 
+
 So i defined a region of interest where lane detections have to be made and then used bitwise AND to crop the image.
+
+
+![image](https://user-images.githubusercontent.com/85057931/170327387-249facf6-1262-4898-8855-2a36ed740dc5.png)
+
 ## Lane detection
-I used Probabilistic Hough Transform to detect lines in the Preprocessed image and then drew these lines on the image.
+I used Probabilistic Hough Transform to detect lines in the Preprocessed image and then drew these lines over on the image.
+
+![3](https://user-images.githubusercontent.com/85057931/170327566-c811baef-b827-4120-8fb7-312545f41582.png)
+
 ## Conclusion
 This method worked on video and can be used in real time and doesn't require much expensive hardware.
 
