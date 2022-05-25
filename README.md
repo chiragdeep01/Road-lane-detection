@@ -7,6 +7,8 @@ In this project i have used OpenCV to detect road lanes for self driving cars. B
 - Then i have used CannyEdge detector which helps Hough transform.
 
 
+
+
 ![1](https://user-images.githubusercontent.com/85057931/170327066-0c79ff57-bec1-4b20-82a9-ec3d040ac650.png)
 
 ## Cropping image
