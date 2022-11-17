@@ -33,4 +33,5 @@ This is a naive approach to road lane detection problem in self driving cars and
 
 - Algorithm has trouble finding road lanes when there are shadows over them.
 - Sunlight also affects the algorithm in detecting the road lanes.
+
 These problems can be solved using a deep learning based approach. I have tried to build a simple approach to a problem without using deep learning so that not expensive hardware is required.
